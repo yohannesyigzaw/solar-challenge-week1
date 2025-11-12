@@ -1,11 +1,12 @@
-# Create virtual environment
-python -m venv venv
+# Navigate to where you want to store the project
+cd ~/Desktop  # or wherever you prefer
 
-# Activate on Mac/Linux:
-source venv/bin/activate
+# Clone the repository
+git clone https://github.com/your-username/solar-challenge-week1.git
 
-# Activate on Windows:
-venv\Scripts\activate
+# Move into the project directory
+cd solar-challenge-week1
 
-# Verify activation (you should see (venv) in your prompt)
-which python
+# Verify you're in the right place
+pwd
+ls -la
